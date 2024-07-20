@@ -75,6 +75,7 @@ antibug = true
 wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("]/sV2A1$6}_cZ2fMcA"):Destroy()
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
+wait(0.1)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = oldcf
 wait(0.2)
 game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
@@ -82,6 +83,17 @@ wait(0.001)
 antibug = false
 	end,
 })
+
+local Label = Otherstab:CreateLabel("Local Player")
+
+local Button = Otherstab:CreateButton({
+	Name = "Reset Character",
+	Callback = function()
+		game.Players.LocalPlayer.Character.Humanoid.Health = 0
+	end,
+})
+
+
 
 local Label = settingstab:CreateLabel("Teleport")
 
