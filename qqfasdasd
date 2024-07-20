@@ -59,27 +59,24 @@ safee.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
 safee.Name = "]/sV2A1$6}_cZ2fMcA"
 while safemodeeeee == true do
     safee.Position = Vector3.new(oldcf.X, 245000, oldcf.Z)
-    wait(0.3)
+    wait(0.15)
     safee.Position = Vector3.new(oldcf.X, 195000, oldcf.Z)
-    wait(0.3)
+    wait(0.15)
     safee.Position = Vector3.new(oldcf.X, 155000, oldcf.Z)
-    wait(0.3)
+    wait(0.15)
     safee.Position = Vector3.new(oldcf.X, 95000, oldcf.Z)
-    wait(0.3)
+    wait(0.15)
     safee.Position = Vector3.new(oldcf.X, 75000, oldcf.Z)
-    wait(0.3)
+    wait(0.15)
     safee.Position = Vector3.new(oldcf.X, 25000, oldcf.Z)
-    wait(0.3)
+    wait(0.15)
 end
 antibug = true
 wait()
 game.Players.LocalPlayer.Character.HumanoidRootPart:FindFirstChild("]/sV2A1$6}_cZ2fMcA"):Destroy()
-game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = true
-wait(0.1)
+wait(0.25)
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = oldcf
-wait(0.2)
-game.Players.LocalPlayer.Character.HumanoidRootPart.Anchored = false
-wait(0.001)
+wait(0.01)
 antibug = false
 	end,
 })
