@@ -59,17 +59,17 @@ safee.MaxForce = Vector3.new(math.huge, math.huge, math.huge)
 safee.Name = "]/sV2A1$6}_cZ2fMcA"
 while safemodeeeee == true do
     safee.Position = Vector3.new(oldcf.X, 245000, oldcf.Z)
-    wait(0.75)
+    wait(0.3)
     safee.Position = Vector3.new(oldcf.X, 195000, oldcf.Z)
-    wait(0.75)
+    wait(0.3)
     safee.Position = Vector3.new(oldcf.X, 155000, oldcf.Z)
-    wait(0.75)
+    wait(0.3)
     safee.Position = Vector3.new(oldcf.X, 95000, oldcf.Z)
-    wait(0.75)
+    wait(0.3)
     safee.Position = Vector3.new(oldcf.X, 75000, oldcf.Z)
-    wait(0.75)
+    wait(0.3)
     safee.Position = Vector3.new(oldcf.X, 25000, oldcf.Z)
-    wait(0.75)
+    wait(0.3)
 end
 antibug = true
 wait()
