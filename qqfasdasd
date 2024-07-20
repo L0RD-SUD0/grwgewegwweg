@@ -35,7 +35,7 @@ local Servertab = Window:CreateTab("Server", 4483362458)
 
 local settingstab = Window:CreateTab("Settings", 4483362458)
 
-local settingstab = Window:CreateTab("Gui", 4483362458)
+local Guitab = Window:CreateTab("Gui", 4483362458)
 
 -- Script Stuff
 
